@@ -22,7 +22,7 @@ if [ "${entry}" == "" ]; then
 fi
 
 # Compileer de hap
-if !(gmcs ${entry}/main.cs -main:Entry -out:${entry}/main.exe); then
+if !(gmcs ${entry}/main.cs -out:${entry}/main.exe); then
 	# Of error en stop
 	echo "COMPILE ERROR";
 	exit 2;
