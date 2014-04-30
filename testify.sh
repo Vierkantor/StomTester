@@ -45,9 +45,6 @@ for test in ${entry}/*.in; do
 		exit 3;
 	fi
 	
-	# (Ruim de executable op)
-	rm ${entry}/main.exe;
-	
 	# En check of dat klopt
 	if !(diff test.out ${entry}/${test}.out); then
 		# Erroren
