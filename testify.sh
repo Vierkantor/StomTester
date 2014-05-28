@@ -34,7 +34,7 @@ for test in ${entry}/*.in; do
 	test=$(basename ${test} .in);
 	
 	# Voer de test uit
-	if !(mono ${entry}/main.exe < ${entry}/${test}.in > test.out); then
+	if !(time mono ${entry}/main.exe < ${entry}/${test}.in > test.out); then
 		# Erroren
 		echo "RUN ERROR";
 		
