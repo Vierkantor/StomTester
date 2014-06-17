@@ -33,6 +33,9 @@ for test in ${entry}/*.in; do
 	# Zoek de echte testnaam op
 	test=$(basename ${test} .in);
 	
+	echo "-------------";
+	echo "Testing $test";
+	
 	# Voer de test uit
 	if !(time mono ${entry}/main.exe < ${entry}/${test}.in > test.out); then
 		# Erroren
