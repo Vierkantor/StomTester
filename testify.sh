@@ -9,8 +9,12 @@
 
 # Benodigdheden:
 # 1. De testcases in folders genummerd per opdracht, genaamd <test>.in en <test>.out per paar voorbeeld in- en outputs
-# 2. Je programma in dezelfde folder als de testcase, genaamd main.cs
-# 3. Mono en bijbehorende compiler (mono en gmcs)
+# 2. Je programma in dezelfde folder als de testcase, genaamd main.<extensie>, de volgende worden geaccepteerd:
+#  C#: .cs
+#  Haskell: .hs
+# 3. De compiler en runtimes:
+#  C#: Mono en bijbehorende compiler (mono en gmcs)
+#  Haskell: GHC
 
 # Lees argumenten in
 entry=$1;
@@ -21,8 +25,26 @@ if [ "${entry}" == "" ]; then
 	exit 1;
 fi
 
+# Check ook of de opdracht wel bestaat
+if !([ -e ${entry} ]); then
+	echo "That entry doesn't actually exist.";
+	exit 1;
+fi
+
+# Detecteer wat voor soort taal we doen (zie ook benodigdheid #2)
+if [ -e ${entry}/main.cs ]; then # C#
+	compile="mcs ${entry}/main.cs -out:${entry}/main.exe";
+	run="mono ${entry}/main.exe";
+elif [ -e ${entry}/main.hs ]; then # Haskell
+	compile="ghc -o main main.hs";
+	run="./main";
+else
+	echo "No source files found.";
+	exit 1;
+fi
+
 # Compileer de hap
-if !(mcs ${entry}/main.cs -out:${entry}/main.exe); then
+if !(${compile}); then
 	# Of error en stop
 	echo "COMPILE ERROR";
 	exit 2;
@@ -37,7 +59,7 @@ for test in ${entry}/*.in; do
 	echo "Testing $test";
 	
 	# Voer de test uit
-	if !(time mono ${entry}/main.exe < ${entry}/${test}.in > test.out); then
+	if !(time ${run} < ${entry}/${test}.in > test.out); then
 		# Erroren
 		echo "RUN ERROR";
 		
