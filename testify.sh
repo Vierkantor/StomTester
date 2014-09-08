@@ -35,9 +35,11 @@ fi
 if [ -e ${entry}/main.cs ]; then # C#
 	compile="mcs ${entry}/main.cs -out:${entry}/main.exe";
 	run="mono ${entry}/main.exe";
+	executable="${entry}/main.exe";
 elif [ -e ${entry}/main.hs ]; then # Haskell
-	compile="ghc -o main main.hs";
+	compile="ghc --make -o main ${entry}/main.hs";
 	run="./main";
+	executable="main";
 else
 	echo "No source files found.";
 	exit 1;
@@ -64,7 +66,7 @@ for test in ${entry}/*.in; do
 		echo "RUN ERROR";
 		
 		# Opschonen
-		rm ${entry}/main.exe;
+		rm ${executable};
 		
 		# En stoppen
 		exit 3;
