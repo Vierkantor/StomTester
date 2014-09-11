@@ -67,6 +67,7 @@ for test in ${entry}/*.in; do
 		
 		# Opschonen
 		rm ${executable};
+		rm test.out;
 		
 		# En stoppen
 		exit 3;
@@ -78,12 +79,17 @@ for test in ${entry}/*.in; do
 		echo "WRONG ANSWER";
 		
 		# Opschonen
+		rm ${executable};
 		rm test.out;
 		
 		# En stoppen
 		exit 4;
 	fi
 done
+
+# Opschonen
+rm ${executable};
+rm test.out;
 
 echo "CORRECT";
 exit 0;
