@@ -18,10 +18,11 @@
 
 # Lees argumenten in
 entry=$1;
+testcase=$2;
 
 # Check of we wel alle argumenten weten
 if [ "${entry}" == "" ]; then
-	echo "Usage: testify.sh <entry>";
+	echo "Usage: testify.sh <entry> [testcase]";
 	exit 1;
 fi
 
@@ -54,36 +55,39 @@ fi
 
 # Run de hap
 for test in ${entry}/*.in; do
+
 	# Zoek de echte testnaam op
 	test=$(basename ${test} .in);
-	
-	echo "-------------";
-	echo "Testing $test";
-	
-	# Voer de test uit
-	if !(time ${run} < ${entry}/${test}.in > test.out); then
-		# Erroren
-		echo "RUN ERROR";
+
+	if [ "${test}" == "${testcase}" ] || [ "${testcase}" == "" ]; then
+		echo "-------------";
+		echo "Testing $test";
 		
-		# Opschonen
-		rm ${executable};
-		rm test.out;
+		# Voer de test uit
+		if !(time ${run} < ${entry}/${test}.in > test.out); then
+			# Erroren
+			echo "RUN ERROR";
+			
+			# Opschonen
+			rm ${executable};
+			rm test.out;
+			
+			# En stoppen
+			exit 3;
+		fi
 		
-		# En stoppen
-		exit 3;
-	fi
-	
-	# En check of dat klopt
-	if !(diff test.out ${entry}/${test}.out); then
-		# Erroren
-		echo "WRONG ANSWER";
-		
-		# Opschonen
-		rm ${executable};
-		rm test.out;
-		
-		# En stoppen
-		exit 4;
+		# En check of dat klopt
+		if !(diff test.out ${entry}/${test}.out); then
+			# Erroren
+			echo "WRONG ANSWER";
+			
+			# Opschonen
+			rm ${executable};
+			rm test.out;
+			
+			# En stoppen
+			exit 4;
+		fi
 	fi
 done
 
