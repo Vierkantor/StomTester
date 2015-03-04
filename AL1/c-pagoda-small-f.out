@@ -1,0 +1,21 @@
+20
+1 2 Building1
+2 3 Building2
+3 4 Building3
+4 5 Building4
+5 6 Building5
+6 7 Building6
+7 8 Building7
+8 9 Building8
+9 10 Building9
+10 11 Building10
+12 10 Building9
+13 9 Building8
+14 8 Building7
+15 7 Building6
+16 6 Building5
+17 5 Building4
+18 4 Building3
+19 3 Building2
+20 2 Building1
+21 0 
