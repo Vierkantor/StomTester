@@ -1,0 +1,13 @@
+start  ->  case left of
+             Asteroid -> goOn;
+             Boundary -> goOn;
+             Lambda   -> turn left, go, take;
+             _        -> turn left, go, start
+           end.
+
+goOn   ->  case front of
+             Asteroid -> turn right, goOn;
+             Boundary -> turn right, goOn;
+             Lambda   -> go, take;
+             _        -> go, start
+           end.

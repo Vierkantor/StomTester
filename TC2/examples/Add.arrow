@@ -1,0 +1,20 @@
+start       -> turn right, go, turn left, firstArg.
+
+turnAround  -> turn right, turn right.
+
+return      -> case front of
+                 Boundary  ->  nothing;
+                 _         ->  go, return
+               end.
+
+firstArg    -> case left of
+                 Lambda  ->  go, firstArg, mark, go;
+                 _       ->  turnAround, return, turn left, go, go, turn left,
+                             secondArg
+               end.
+
+secondArg   -> case left of
+                 Lambda  ->  go, secondArg, mark, go;
+                 _       ->  turnAround, return, turn left, go, turn left
+               end.
+

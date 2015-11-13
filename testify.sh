@@ -54,6 +54,11 @@ fi
 
 # Run de hap
 for test in ${entry}/*.in; do
+	if [ $test == '*' ]; then
+		echo "No input files found, assuming everything is ok...";
+		exit 0;
+	fi
+
 	# Zoek de echte testnaam op
 	test=$(basename ${test} .in);
 	

@@ -1,0 +1,2801 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Reading Club
+X-WR-TIMEZONE:UTC
+X-WR-CALDESC:Schedule for the reading club meetings.
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20111010T153000
+DTEND;TZID=Europe/Amsterdam:20111010T170000
+DTSTAMP:20111012T083945Z
+UID:58paepfd4kmglooojg6lbl4uoc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20111010T153000
+CREATED:00001231T000000Z
+DESCRIPTION:Dimitrios VardoulakisOlin Shivers\nhttp://dl.acm.org/citation.c
+ fm?id=2034785\n\nPushdown models are better than control-flow graphs for hi
+ gher- order flow analysis. They faithfully model the call/return structure 
+ of a program\, which results in fewer spurious flows and increased precisio
+ n. However\, pushdown models require that calls and returns in the analyzed
+  program nest properly. As a result\, they cannot be used to analyze langua
+ ge constructs that break call/return nesting such as generators\, coroutine
+ s\, call/cc\, etc.\nIn this paper\, we extend the CFA2 flow analysis to cre
+ ate the first pushdown flow analysis for languages with first-class control
+ . We modify the abstract semantics of CFA2 to allow continuations to escape
+  to\, and be restored from\, the heap. We then present a summarization algo
+ rithm that handles escaping continuations via a new kind of summary edges. 
+ We prove that the algorithm is sound with respect to the abstract semantics
+ .
+LAST-MODIFIED:20111006T093525Z
+LOCATION:BBL 545
+SEQUENCE:24
+STATUS:CONFIRMED
+SUMMARY:RC: Pushdown Flow Analysis of First-Class Control
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20111003T153000
+DTEND;TZID=Europe/Amsterdam:20111003T170000
+DTSTAMP:20111012T083945Z
+UID:58paepfd4kmglooojg6lbl4uoc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20111003T153000
+CREATED:00001231T000000Z
+DESCRIPTION:Chapter "Smallstep"
+LAST-MODIFIED:20110926T153406Z
+LOCATION:BBL 545
+SEQUENCE:24
+STATUS:CONFIRMED
+SUMMARY:RC: Software Foundations
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110926T153000
+DTEND;TZID=Europe/Amsterdam:20110926T170000
+DTSTAMP:20111012T083945Z
+UID:58paepfd4kmglooojg6lbl4uoc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110926T153000
+CREATED:00001231T000000Z
+DESCRIPTION:Chapters Logic and Rel
+LAST-MODIFIED:20110919T151328Z
+LOCATION:BBL 545
+SEQUENCE:24
+STATUS:CONFIRMED
+SUMMARY:RC: Software Foundations
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110919T153000
+DTEND;TZID=Europe/Amsterdam:20110919T170000
+DTSTAMP:20111012T083945Z
+UID:58paepfd4kmglooojg6lbl4uoc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110919T153000
+CREATED:00001231T000000Z
+DESCRIPTION:Chapters Gen and Prop
+LAST-MODIFIED:20110912T145850Z
+LOCATION:BBL 545
+SEQUENCE:24
+STATUS:CONFIRMED
+SUMMARY:RC: Software Foundations
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110912T153000
+DTEND;TZID=Europe/Amsterdam:20110912T170000
+DTSTAMP:20111012T083945Z
+UID:58paepfd4kmglooojg6lbl4uoc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110912T153000
+CREATED:00001231T000000Z
+DESCRIPTION:Chapter "Poly"
+LAST-MODIFIED:20110908T072721Z
+LOCATION:BBL 545
+SEQUENCE:24
+STATUS:CONFIRMED
+SUMMARY:RC: Software Foundations
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110907T140000
+DTEND;TZID=Europe/Amsterdam:20110907T153000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110907T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cis.upenn.edu/~bcpierce/sf/
+LAST-MODIFIED:20110831T122134Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Software Foundations
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110912T153000
+DTEND;TZID=Europe/Amsterdam:20110912T170000
+RRULE:FREQ=WEEKLY;BYDAY=MO;WKST=MO
+DTSTAMP:20111012T083945Z
+UID:58paepfd4kmglooojg6lbl4uoc@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110831T121948Z
+LOCATION:BBL 545
+SEQUENCE:24
+STATUS:CONFIRMED
+SUMMARY:Reading Club
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110803T140000
+DTEND;TZID=Europe/Amsterdam:20110803T153000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110803T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://users.ugent.be/~tschrijv/Research/papers/icfp2011.pdf\n\
+ nTom Schrijvers and Bruno C. d. S. Oliveira\n\nWe make monadic components m
+ ore reusable and robust to changes by employing two new techniques for virt
+ ualizing the monad stack: the monad zipper and monad views. The monad zippe
+ r is a higher-order monad transformer that creates virtual monad stacks by 
+ ignoring particular layers in a concrete stack. Monad views provide a gener
+ al framework for monad stack virtualization: they take the monad zipper one
+  step further and integrate it with a wide range of other virtualizations. 
+ For instance\, particular views allow restricted access to monads in the st
+ ack. Furthermore\, monad views provide components with a call-by-reference-
+ like mechanism for accessing particular layers of the monad stack. With our
+  two new mechanisms\, the monadic effects required by components no longer 
+ need to be literally reflected in the concrete monad stack. This makes thes
+ e components more reusable and robust to changes.
+LAST-MODIFIED:20110831T121903Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Monads\, Zippers and Views---Virtualizing the Monad Stack
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110727T140000
+DTEND;TZID=Europe/Amsterdam:20110727T153000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110727T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?doid=1925844.1926394\n\nShar
+ ed-memory concurrency in C and C++ is pervasive in systems programming\, bu
+ t has long been poorly defined. This motivated an ongoing shared effort by 
+ the standards committees to specify concurrent behaviour in the next versio
+ ns of both languages. They aim to provide strong guarantees for race-free p
+ rograms\, together with new (but subtle) relaxed-memory atomic primitives f
+ or high-performance concurrent code. However\, the current draft standards\
+ , while the result of careful deliberation\, are not yet clear and rigorous
+  definitions\, and harbour substantial problems in their details.\n\nIn thi
+ s paper we establish a mathematical (yet readable) semantics for C++ concur
+ rency. We aim to capture the intent of the current (`Final Committee') Draf
+ t as closely as possible\, but discuss changes that fix many of its problem
+ s. We prove that a proposed x86 implementation of the concurrency primitive
+ s is correct with respect to the x86-TSO model\, and describe our Cppmem to
+ ol for exploring the semantics of examples\, using code generated from our 
+ Isabelle/HOL definitions.\n\nHaving already motivated changes to the draft 
+ standard\, this work will aid discussion of any further changes\, provide a
+  correctness condition for compilers\, and give a much-needed basis for ana
+ lysis and verification of concurrent C and C++ programs.
+LAST-MODIFIED:20110831T121903Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Mathematizing C++ concurrency
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110810T140000
+DTEND;TZID=Europe/Amsterdam:20110810T153000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110810T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.dreixel.net/research/pdf/fmmh.pdf\n\nMusic theory ha
+ s been essential in composing and performing music for centuries. Within We
+ stern tonal music\, from the early Baroque on to modern-day jazz and pop mu
+ sic\, the function of chords within a chord sequence can be explained by ha
+ rmony theory. Although Western tonal harmony theory is a thoroughly studied
+  area\, formalising this theory is a hard problem.\nWe present a formalisat
+ ion of the rules of tonal harmony as a Haskell (generalized) algebraic data
+ type. Given a sequence of chord labels\, the harmonic function of a chord i
+ n its tonal context is automatically derived. For this\, we use several adv
+ anced functional programming techniques\, such as type-level computations\,
+  datatype-generic programming\, and error-correcting parsers. As a detailed
+  example\, we show how our model can be used to improve content-based retri
+ eval of jazz songs.\nWe explain why Haskell is the perfect match for these 
+ tasks\, and compare our implementation to an earlier solution in Java. We a
+ lso point out shortcomings of the language and libraries that limit our wor
+ k\, and discuss future developments which may ameliorate our solution.
+LAST-MODIFIED:20110831T121903Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Functional Modelling of Musical Harmony---an Experience Report
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110824T140000
+DTEND;TZID=Europe/Amsterdam:20110824T153000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110824T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://cs.ru.nl/~thomas/publications/noot11-embedding-polymorph
+ ic-dynamic.pdf
+LAST-MODIFIED:20110831T121903Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Embedding Polymorphic Dynamic Typing
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110831T140000
+DTEND;TZID=Europe/Amsterdam:20110831T153000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110831T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.pathfinder-xquery.org/files/giorgidze/haskell2011.pd
+ f\n\nThis paper is about a Glasgow Haskell Compiler (GHC) extension that ge
+ neralises Haskell’s list comprehension notation to monads. The monad compre
+ hension notation implemented by the extension supports generator and filter
+  clauses\, as was the case in the Haskell 1.4 standard. In addition\, the e
+ xtension generalises the recently proposed parallel and SQL-like list compr
+ ehension notations to monads. The aforementioned generalisations are formal
+ ly defined in this paper. The extension will be available in GHC 7.2.\n\nTh
+ is paper gives several instructive examples that we hope will facilitate wi
+ de adoption of the extension by the Haskell community. We also argue why th
+ e do notation is not always a good fit for monadic libraries and embedded d
+ omain-specific languages\, especially for those that are based on collectio
+ n monads. Should the question of how to integrate the extension into the Ha
+ skell standard arise\, the paper proposes a solution to the problem that le
+ d to the removal of the monad comprehension notation from the language stan
+ dard.
+LAST-MODIFIED:20110831T121903Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Bringing Back Monad Comprehensions
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110727T140000
+DTEND;TZID=Europe/Amsterdam:20110727T153000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20110911T215959Z
+EXDATE;TZID=Europe/Amsterdam:20110817T140000
+DTSTAMP:20111012T083945Z
+UID:640a593vkbmg304bc6940lep9c@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110831T121903Z
+LOCATION:BBL 545
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110510T140000
+DTEND;TZID=Europe/Amsterdam:20110510T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110510T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=871896\n\nA nexus is a tr
+ ee that contains shared nodes\, nodes that have more than one incoming arc.
+  Shared nodes are created in almost every functional program---for instance
+ \, when updating a purely functional data structure---though programmers ar
+ e seldom aware of this. In fact\, there are only a few algorithms that expl
+ oit sharing of nodes consciously. One example is constructing a tree in sub
+ linear time. In this pearl we discuss an intriguing application of nexuses\
+ ; we show that they serve admirably as memo structures featuring constant t
+ ime access to memoized function calls. Along the way we encounter Boolean l
+ attices and binomial trees.\n
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Trouble shared is trouble halved
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110621T140000
+DTEND;TZID=Europe/Amsterdam:20110621T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110621T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1630625\n\nSadly\, Richar
+ d Bird is stepping down as the editor of the ‘Functional Pearls’ column. As
+  a farewell present\, I would like to dedicate a tree to him. A woody plant
+  is appropriate for at least two reasons: Richard has been preoccupied with
+  trees in many of his pearls\, and where else would you find a bird's nest?
+  Actually\, there is a lot of room for nests\, as the tree is infinite. Fig
+ ure 1 displays the first five levels. The Bird tree\, whose nodes are label
+ led with rational numbers\, enjoys several remarkable properties.
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: The bird tree
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110607T140000
+DTEND;TZID=Europe/Amsterdam:20110607T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110607T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.comlab.ox.ac.uk/publications/publication4877-abstrac
+ t.html\n\nAbstract\nOne of the appeals of pure functional programming is th
+ at it is so amenable to equational reasoning. One of the problems of pure f
+ unctional programming is that it rules out computational effects. Moggi and
+  Wadler showed how to get round this problem by using monads to encapsulate
+  the effects\, leading in essence to a phase distinction - a pure functiona
+ l evaluation yielding an impure imperative computation. Still\, it has not 
+ been clear how to reconcile that phase distinction with the continuing appe
+ al of functional programming\; does the impure imperative part become inacc
+ essible to equational reasoning? We think not\; and to back that up\, we pr
+ esent a simple axiomatic approach to reasoning about programs with computat
+ ional effects.
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Simple monadic equational reasoning (again)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110531T140000
+DTEND;TZID=Europe/Amsterdam:20110531T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110531T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.comlab.ox.ac.uk/publications/publication4877-abstrac
+ t.html\n\nAbstract\nOne of the appeals of pure functional programming is th
+ at it is so amenable to equational reasoning. One of the problems of pure f
+ unctional programming is that it rules out computational effects. Moggi and
+  Wadler showed how to get round this problem by using monads to encapsulate
+  the effects\, leading in essence to a phase distinction - a pure functiona
+ l evaluation yielding an impure imperative computation. Still\, it has not 
+ been clear how to reconcile that phase distinction with the continuing appe
+ al of functional programming\; does the impure imperative part become inacc
+ essible to equational reasoning? We think not\; and to back that up\, we pr
+ esent a simple axiomatic approach to reasoning about programs with computat
+ ional effects.\n
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Simple monadic equational reasoning
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110628T140000
+DTEND;TZID=Europe/Amsterdam:20110628T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110628T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cs.cmu.edu/~jcr/seplogic.pdf\n\nIn joint work with P
+ eter O'Hearn and others\, based on early ideas of Burstall\, we have develo
+ ped an extension of Hoare logic that permits reasoning about low-level impe
+ rativeprograms that use shared mutable data structure.The simple imperative
+  programming language is extended with commands (not expressions) for acces
+ sing and modifying shared structures\, and for explicit allocation and deal
+ location of storage. Assertions are extended by introducing a "separating c
+ onjunction" that asserts that its sub-formulas hold for disjoint parts of t
+ he heap\, and a closely related "separating implication". Coupled with the 
+ inductive definition of predicates on abstract data structures\, this exten
+ sion permits the concise and flexible description of structures with contro
+ lled sharing.In this paper\, we will survey the current development of this
+  program logic\, including extensions that permit unrestricted address arit
+ hmetic\, dynamically allocated arrays\, and recursive procedures. We will a
+ lso discuss promising future directions.
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Separation Logic: A Logic for Shared Mutable Data Structures
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110614T140000
+DTEND;TZID=Europe/Amsterdam:20110614T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110614T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.comlab.ox.ac.uk/people/daniel.james/unique.html\n\nA
+ bstract\nSay you want to prove something about an infinite data-structure\,
+  such as a stream or an infinite tree\, but you would rather not subject yo
+ urself to coïnduction. The unique fixed-point principle is an easy-to-use\,
+  calculational alternative. The proof technique rests on the fact that cert
+ ain recursion equations have unique solutions\; if two elements of a coïndu
+ ctive type satisfy the same equation of this kind\, then they are equal. In
+  this paper we precisely characterize the conditions that guarantee a uniqu
+ e solution. Significantly\, we do so not with a syntactic criterion\, but w
+ ith a semantic one that stems from the categorical notion of naturality. Ou
+ r development is based on distributive laws and biälgebras\, and draws heav
+ ily on Turi and Plotkin’s pioneering work on mathematical operational seman
+ tics. Along the way\, we break down the design space in two dimensions\, le
+ ading to a total of nine points. Each gives rise to varying degrees of expr
+ essiveness\, and we will discuss three in depth. Furthermore\, our developm
+ ent is generic in the syntax of equations and in the behaviour they encode—
+ we are not caged in the world of streams.\n
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Proving The Unique-Fixed Point Principle Correct\; An Adventure
+  with Category Theory
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110719T140000
+DTEND;TZID=Europe/Amsterdam:20110719T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110719T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cs.ox.ac.uk/publications/publication4878-abstract.ht
+ ml\n\nA bidirectional transformation is a system that consists of two mappi
+ ngs between a source and a view data object\, one in each direction. When a
+  the view is modified\, the source is updated accordingly. The key to handl
+ ing large data objects that are subject to relatively small modifications i
+ s to process the updates incrementally. Incrementality has been explored in
+  the settings of relational databases and graph transformations\, where the
+  data is typically not typed (in the sense of not being restricted to a par
+ ticular shape). This flexibility in structure makes it relatively easy to d
+ ivide the data into separate parts that can be transformed and updated inde
+ pendently. The same is not true if the data is to be encoded with more gene
+ ral purpose algebraic datatypes\, with transformations defined as functions
+ : dividing data into well-typed separate parts is tricky\, and recursions t
+ ypically create interdependencies. In this paper\, we look at the identific
+ ation of transformations that support incremental updates\, and devise a co
+ nstructive process to achieve such transformations. 
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Incremental Updates for Efficient Bidirectional Transformations
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110517T140000
+DTEND;TZID=Europe/Amsterdam:20110517T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110517T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1863539\n\nDataflow analy
+ sis and transformation of control-flow graphs is pervasive in optimizing co
+ mpilers\, but it is typically entangled with the details of a particular co
+ mpiler. We describe Hoopl\, a reusable library that makes it unusually easy
+  to define new analyses and transformations for any compiler written in Has
+ kell. Hoopl's interface is modular and polymorphic\, and it offers unusuall
+ y strong static guarantees. The implementation encapsulates state-of-the-ar
+ t algorithms (interleaved analysis and rewriting\, dynamic error isolation)
+ \, and it cleanly separates their tricky elements so that they can be under
+ stood independently.
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Hoopl: a modular\, reusable library for dataflow analysis and t
+ ransformation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110524T140000
+DTEND;TZID=Europe/Amsterdam:20110524T153000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110524T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cis.upenn.edu/~byorgey/papers/binders-unbound.pdf\n\
+ nImplementors of compilers\, program refactorers\, theorem provers\, proof\
+ ncheckers\, and other systems that manipulate syntax know that dealing\nwit
+ h name binding is difﬁcult to do well. Operations such as\nα-equivalence an
+ d capture-avoiding substitution seem simple\, yet\nsubtle bugs often go und
+ etected. Furthermore\, their implementations\nare tedious\, requiring “boil
+ erplate” code that must be updated\nwhenever the object language deﬁnition 
+ changes.\nMany researchers have therefore sought to specify binding syntax\
+ ndeclaratively\, so that tools can correctly handle the details behind\nthe
+  scenes. This idea has been the inspiration for many new systems\n(such as 
+ Beluga\, Delphin\, FreshML\, FreshOCaml\, Cαml\, FreshLib\, and\nOtt) but t
+ here is still room for improvement in expressivity\,\nsimplicity and conven
+ ience.\nIn this paper\, we present a new domain-speciﬁc language\, UNBOUND\
+ , for\nspecifying binding structure. Our language is particularly\nexpressi
+ ve—it supports multiple atom types\, pattern binders\, type\nannotations\, 
+ recursive binders\, and nested binding (necessary for\ntelescopes\, a featu
+ re found in dependently-typed languages). However\,\nour speciﬁcation langu
+ age is also simple\, consisting of just ﬁve basic\ncombinators. We provide 
+ a formal semantics for this language derived\nfrom a locally nameless repre
+ sentation and prove that it satisﬁes a\nnumber of desirable properties.\nWe
+  also present an implementation of our binding speciﬁcation language\nas a 
+ GHC Haskell library implementing an embedded domain speciﬁc\nlanguage (EDSL
+ ). By using Haskell type constructors to represent\nbinding combinators\, w
+ e implement the EDSL succinctly using\ndatatype-generic programming. Our im
+ plementation supports a number of\nfeatures necessary for practical program
+ ming\, including ﬂexibility in\nthe treatment of user-deﬁned types\, bestef
+ fort name preservation (for\nerror messages)\, and integration with Haskell
+ ’s monad transformer\nlibrary.
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: Binders Unbound
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110510T140000
+DTEND;TZID=Europe/Amsterdam:20110510T153000
+RRULE:FREQ=WEEKLY;BYDAY=TU;WKST=MO;UNTIL=20110725T215959Z
+EXDATE;TZID=Europe/Amsterdam:20110712T140000
+EXDATE;TZID=Europe/Amsterdam:20110705T140000
+DTSTAMP:20111012T083945Z
+UID:460hvjd9nc0ubtcvnliqjn5fbg@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110719T140540Z
+LOCATION:BBL 547
+SEQUENCE:23
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110223T140000
+DTEND;TZID=Europe/Amsterdam:20110223T153000
+DTSTAMP:20111012T083945Z
+UID:c178sibh50bi3mdhbrm5pkio34@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110223T140000
+CREATED:00001231T000000Z
+DESCRIPTION:Haskell is a great language for writing and supporting embedded
+  Domain Specific Languages (DSLs). Some form of observable sharing is often
+  a critical capability for allowing so-called deep DSLs to be compiled and 
+ processed. In this paper\, we describe and explore uses of an IO function f
+ or reification which allows direct observation of sharing.\n\nhttp://www.it
+ tc.ku.edu/csdl/fpg/sites/default/files/Gill-09-TypeSafeReification.pdf
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:12
+STATUS:CONFIRMED
+SUMMARY:RC: Type-Safe Observable Sharing in Haskell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110309T143000
+DTEND;TZID=Europe/Amsterdam:20110309T160000
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110309T143000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=636528\n\nTemplate meta-p
+ rogramming for Haskell\nWe propose a new extension to the purely functional
+  programming language Haskell that supports compile-time meta-programming. 
+ The purpose of the system is to support the algorithmic construction of pro
+ grams at compile-time.The ability to generate code at compile time allows t
+ he programmer to implement such features as polytypic programs\, macro-like
+  expansion\, user directed optimization (such as inlining)\, and the genera
+ tion of supporting data structures and functions from existing data structu
+ res and functions.Our design is being implemented in the Glasgow Haskell Co
+ mpiler\, ghc.
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: Template meta-programming for Haskell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110302T143000
+DTEND;TZID=Europe/Amsterdam:20110302T160000
+DTSTAMP:20111012T083945Z
+UID:c178sibh50bi3mdhbrm5pkio34@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110302T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1706299.1706327&coll=DL&d
+ l=GUIDE\n\nWe describe a new automatic static analysis for determining uppe
+ r-bound functions on the use of quantitative resources for strict\, higher-
+ order\, polymorphic\, recursive programs dealing with possibly-aliased data
+ . Our analysis is a variant of Tarjan's manual amortised cost analysis tech
+ nique. We use a type-based approach\, exploiting linearity to allow inferen
+ ce\, and place a new emphasis on the number of references to a data object.
+  The bounds we infer depend on the sizes of the various inputs to a program
+ . They thus expose the impact of specific inputs on the overall cost behavi
+ our.\n\nThe key novel aspect of our work is that it deals directly with pol
+ ymorphic higher-order functions without requiring source-level transformati
+ ons that could alter resource usage . We thus obtain safe and accurate comp
+ ile-time bounds. Our work is generic in that it deals with a variety of qua
+ ntitative resources. We illustrate our approach with reference to dynamic m
+ emory allocations/deallocations\, stack usage\, and worst-case execution ti
+ me\, using metrics taken from a real implementation on a simple micro-contr
+ oller platform that is used in safety-critical automotive applications.
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:12
+STATUS:CONFIRMED
+SUMMARY:RC: Static determination of quantitative resource usage for higher-
+ order programs
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110330T143000
+DTEND;TZID=Europe/Amsterdam:20110330T160000
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110330T143000
+CREATED:00001231T000000Z
+DESCRIPTION:http://journals.cambridge.org/action/displayAbstract?fromPage=o
+ nline&aid=8209507\n\nExisting package and system configuration management t
+ ools suffer from an imperative model\, where system administration actions 
+ such as package upgrades or changes to system configuration files are state
+ ful: they destructively update the state of the system. This leads to many 
+ problems\, such as the inability to roll back changes easily\, to deploy mu
+ ltiple versions of a package side-by-side\, to reproduce a configuration de
+ terministically on another machine\, or to reliably upgrade a system. In th
+ is paper we show that we can overcome these problems by moving to a purely 
+ functional system configuration model. This means that all static parts of 
+ a system (such as software packages\, configuration files and system startu
+ p scripts) are built by pure functions and are immutable\, stored in a way 
+ analogous to a heap in a purely functional language. We have implemented th
+ is model in NixOS\, a non-trivial Linux distribution that uses the Nix pack
+ age manager to build the entire system configuration from a modular\, purel
+ y functional specification.
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: NixOS: A purely functional Linux distribution
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110420T143000
+DTEND;TZID=Europe/Amsterdam:20110420T160000
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110420T143000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1869527\n\nAs heterogeneo
+ us parallel systems become dominant\, application developers are being forc
+ ed to turn to an incompatiblemix of low level programming models (e.g. Open
+ MP\, MPI\, CUDA\, OpenCL). However\, these models do little to shield devel
+ opers from the difficult problems of parallelization\, data decomposition a
+ nd machine-specific details. Most programmersare having a difficult time us
+ ing these programming models effectively. To provide a programming modeltha
+ t addresses the productivity and performance requirements for the average p
+ rogrammer\, we explore a domainspecificapproach to heterogeneous parallel p
+ rogramming.
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: Language virtualization for heterogeneous parallel computing
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110503T140000
+DTEND;TZID=Europe/Amsterdam:20110503T153000
+DTSTAMP:20111012T083945Z
+UID:78g9rdfr2bk2iijfnu533v14nk@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110503T140000
+CREATED:00001231T000000Z
+DESCRIPTION:This is the same paper as last week\, we will continue from sec
+ tion 4.\n\nhttp://arxiv.org/abs/1103.2841\n\nThe BiplateType datatype defin
+ ed in the Uniplate library is similar to a lens (a.k.a. a functional refere
+ nce). This paper proves that Biplate generalizes lens similarly to how appl
+ icative functor generalizes functor. This paper gives an alternative defini
+ tion of BiplateType using a nested data type that better captures the invar
+ iants for Biplates than Uniplate's original definition. In previous work\, 
+ van Laarhoven conjectures an isomorphism between this nested data type and 
+ a data type found in Compos library. This paper complete his proof of the i
+ somorphism by using free theorems for types polymorphic over applicative fu
+ nctors. This result means that\, morally speaking\, Compos and Uniplate use
+  isomorphic representations for their core data type for generic traversals
+  of simple recursive data types. For mutually recursive data types\, Compos
+  and Uniplate providing two different extensions to this common core functi
+ onality. Compos requires the user to rewrite a mutually recursive data type
+  as a GADT\, while Uniplate's Biplate class\, is less powerful but only req
+ uires multiparameter type classes and does not require rewriting one's data
+  type. This paper proposes a third extension to support mutually recursive 
+ datatypes that is as powerful as Compos\, as easy to use as Biplate\, and m
+ ore portable than both of them. This proposal\, called Multiplate\, only re
+ quires rank 3 polymorphism.
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 547
+SEQUENCE:20
+STATUS:CONFIRMED
+SUMMARY:RC: Functor is to Lens as Applicative is to Biplate: Introducing Mu
+ ltiplate (Part 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110426T140000
+DTEND;TZID=Europe/Amsterdam:20110426T153000
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110427T143000
+CREATED:00001231T000000Z
+DESCRIPTION:http://arxiv.org/abs/1103.2841\n\nThe BiplateType datatype defi
+ ned in the Uniplate library is similar to a lens (a.k.a. a functional refer
+ ence). This paper proves that Biplate generalizes lens similarly to how app
+ licative functor generalizes functor. This paper gives an alternative defin
+ ition of BiplateType using a nested data type that better captures the inva
+ riants for Biplates than Uniplate's original definition. In previous work\,
+  van Laarhoven conjectures an isomorphism between this nested data type and
+  a data type found in Compos library. This paper complete his proof of the 
+ isomorphism by using free theorems for types polymorphic over applicative f
+ unctors. This result means that\, morally speaking\, Compos and Uniplate us
+ e isomorphic representations for their core data type for generic traversal
+ s of simple recursive data types. For mutually recursive data types\, Compo
+ s and Uniplate providing two different extensions to this common core funct
+ ionality. Compos requires the user to rewrite a mutually recursive data typ
+ e as a GADT\, while Uniplate's Biplate class\, is less powerful but only re
+ quires multiparameter type classes and does not require rewriting one's dat
+ a type. This paper proposes a third extension to support mutually recursive
+  datatypes that is as powerful as Compos\, as easy to use as Biplate\, and 
+ more portable than both of them. This proposal\, called Multiplate\, only r
+ equires rank 3 polymorphism.
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: Functor is to Lens as Applicative is to Biplate: Introducing Mu
+ ltiplate
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110316T143000
+DTEND;TZID=Europe/Amsterdam:20110316T160000
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110316T143000
+CREATED:00001231T000000Z
+DESCRIPTION:http://research.microsoft.com/en-us/um/people/simonpj/papers/sp
+ ec-constr/spec-constr.pdf\n\nUser-defined data types\, pattern-matching\, a
+ nd recursion are ubiquitous features of Haskell programs. Sometimes a funct
+ ion is called with arguments that are statically known to already be in con
+ structor form\, so that the work of pattern-matching is wasted. Even worse\
+ , the argument is sometimes freshly-allocated\, only to be immediately deco
+ mposed by the function.\n\nIn this paper we describe a simple\, modular tra
+ nsformation that specialises recursive functions according to their argumen
+ t ``shapes''. We show that such a transformation has a simple\, modular imp
+ lementation\, and that it can be extremely effective in practice\, eliminat
+ ing both pattern-matching and heap allocation. We describe our implementati
+ on of this constructor specialisation transformation in the Glasgow Haskell
+  Compiler\, and give measurements of its effectiveness. 
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: Call-pattern specialisation for Haskell programs
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110323T143000
+DTEND;TZID=Europe/Amsterdam:20110323T160000
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110323T143000
+CREATED:00001231T000000Z
+DESCRIPTION:Abstract\n\nEvaluation of attributes w.r.t. an attribute gramma
+ r can be obtained by inductively computing a function expressing the depend
+ encies of the synthesized attributes on inherited attributes. This higher-o
+ rder functional approach to attribute grammars leads to a straightforward i
+ mplementation using a higher-order lazy functional language like Haskell. T
+ he resulting evaluation functions are\, however\, not easily amenable to op
+ timization rules. We present an alternative first-order functional interpre
+ tation of attribute grammars where the input tree is replaced with an exten
+ ded cyclic tree each node of which is aware of its context viewed as an add
+ itional child tree. By the way\, we demonstrate that these cyclic represent
+ ations of zippers (trees with their context) are natural generalizations of
+  doubly-linked lists to trees over an arbitrary signature.\n\nhttp://schola
+ r.google.nl/scholar_url?hl=en&q=http://linkinghub.elsevier.com/retrieve/pii
+ /S1571066111000521&oi=scholaralrt&ct=alrt&cd=0&sa=X&scisig=AAGBfm10EQH6T-mm
+ aGU0aRziSco-RztbPA
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: Attribute Grammars as Recursion Schemes over Cyclic Representat
+ ions of Zippers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110216T140000
+DTEND;TZID=Europe/Amsterdam:20110216T153000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20110308T225959Z
+DTSTAMP:20111012T083945Z
+UID:c178sibh50bi3mdhbrm5pkio34@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:12
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110503T140000
+DTEND;TZID=Europe/Amsterdam:20110503T153000
+RRULE:FREQ=WEEKLY;BYDAY=TU;WKST=MO;UNTIL=20110509T215959Z
+DTSTAMP:20111012T083945Z
+UID:78g9rdfr2bk2iijfnu533v14nk@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:20
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110309T143000
+DTEND;TZID=Europe/Amsterdam:20110309T160000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20110503T215959Z
+DTSTAMP:20111012T083945Z
+UID:6ctduosb1b8e55ujhreh9j116g@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110525T024702Z
+LOCATION:BBL 545
+SEQUENCE:14
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110126T140000
+DTEND;TZID=Europe/Amsterdam:20110126T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110126T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1596638.1596644\n\nHigher
+ -order abstract syntax provides a convenient way of embedding domain-specif
+ ic languages\, but is awkward to analyse and manipulate directly. We explor
+ e the boundaries of higher-order abstract syntax. Our key tool is the unemb
+ edding of embedded terms as de Bruijn terms\, enabling intensional analysis
+ . As part of our solution we present techniques for separating the definiti
+ on of an embedded program from its interpretation\, giving modular extensio
+ ns of the embedded language\, and different ways to encode the types of the
+  embedded language.
+LAST-MODIFIED:20110209T084600Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Unembedding domain-specific languages
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110105T140000
+DTEND;TZID=Europe/Amsterdam:20110105T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110105T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://publications.lib.chalmers.se/cpl/record/index.xsql?pubid
+ =99387
+LAST-MODIFIED:20110209T084600Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Testing Polymorphic Properties
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101215T133000
+DTEND;TZID=Europe/Amsterdam:20101215T150000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101215T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=964008
+LAST-MODIFIED:20110209T084600Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Isomorphisms of Generic Recursive Polynomial Types
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110209T140000
+DTEND;TZID=Europe/Amsterdam:20110209T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110209T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cs.st-andrews.ac.uk/~eb/writings/plpv11.pdf\n\nDepen
+ dent types have emerged in recent years as a promising approach\nto ensurin
+ g program correctness. However\, existing dependently typed\nlanguages such
+  as Agda and Coq work at a very high level of\nabstraction\, making it difﬁ
+ cult to map veriﬁed programs to suitably\nefﬁcient executable code. This is
+  particularly problematic for\nprograms which work with bit level data\, e.
+ g. network packet\nprocessing\, binary ﬁle formats or operating system serv
+ ices. Such\nprograms\, being fundamental to the operation of computers in g
+ eneral\,\nmay stand to beneﬁt signiﬁcantly from program veriﬁcation techniq
+ ues.\nThis paper describes the use of a dependently typed programming\nlang
+ uage\, IDRIS\, for specifying and verifying properties of low-level\nsystem
+ s programs\, taking network packet processing as an extended\nexample. We g
+ ive an overview of the distinctive features of IDRIS\nwhich allow it to int
+ eract with external systems code\, with precise\ntypes. Furthermore\, we sh
+ ow how to integrate tactic scripts and plugin\ndecision procedures to reduc
+ e the burden of proof on application\ndevelopers. The ideas we present are 
+ readily adaptable to languages\nwith related type systems.
+LAST-MODIFIED:20110209T084600Z
+LOCATION:BBL 545
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Idris - Systems Programming meets Full Dependent Types
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110119T140000
+DTEND;TZID=Europe/Amsterdam:20110119T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110119T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://homepages.inf.ed.ac.uk/wadler/papers/blame-for-all/blame
+ -for-all.pdf
+LAST-MODIFIED:20110209T084600Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Blame for All
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110202T140000
+DTEND;TZID=Europe/Amsterdam:20110202T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110202T140000
+CREATED:00001231T000000Z
+DESCRIPTION:Tillmann Rendel\, Klaus Ostermann. Haskell 2010.\n\nAbstract: P
+ arsers and pretty-printers for a language are often quite similar\, yet bot
+ h are typically implemented separately\, leading to redundancy and potentia
+ l inconsistency. We propose a new interface of syntactic descriptions\, wit
+ h which both parser and pretty-printer can be described as a single program
+ . Whether a syntactic description is used as a parser or as a pretty-printe
+ r is determined by the implementation of the interface. Syntactic descripti
+ ons enable programmers to describe the connection between concrete and abst
+ ract syntax once and for all\, and use these descriptions for parsing or pr
+ etty-printing as needed. We also discuss the generalization of our programm
+ ing technique towards an algebra of partial isomorphisms.\n\nhttp://portal.
+ acm.org/ft_gateway.cfm?id=1863525&type=pdf&coll=DL&dl=GUIDE&CFID=6952375&CF
+ TOKEN=48173471
+LAST-MODIFIED:20110209T084559Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Invertible Syntax Descriptions: Unifying Parsing and Pretty Pri
+ nting
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20110112T140000
+DTEND;TZID=Europe/Amsterdam:20110112T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20110112T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cis.upenn.edu/~stevez/papers/WVPJZ11.pdf
+LAST-MODIFIED:20110209T084559Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Generative Type Abstraction and Type-level Computation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101208T140000
+DTEND;TZID=Europe/Amsterdam:20101208T153000
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101208T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.cs.uu.nl/wiki/Center/AspectAG
+LAST-MODIFIED:20110209T084559Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: Attribute Grammars Fly First-Class
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101201T140000
+DTEND;TZID=Europe/Amsterdam:20101201T153000
+DTSTAMP:20111012T083945Z
+UID:onijudnn53jm8gsjsld3k5m5tg@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101201T140000
+CREATED:00001231T000000Z
+DESCRIPTION:http://research.microsoft.com/en-us/um/people/crusso/qml/
+LAST-MODIFIED:20110209T033210Z
+LOCATION:BBL 547
+SEQUENCE:8
+STATUS:CONFIRMED
+SUMMARY:RC: QML: Explicit first-class polymorphism for ML
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20101124T130000Z
+DTEND:20101124T143000Z
+DTSTAMP:20111012T083945Z
+UID:onijudnn53jm8gsjsld3k5m5tg@google.com
+RECURRENCE-ID:20101124T130000Z
+CREATED:00001231T000000Z
+DESCRIPTION:Riccardo Pucella\, Jesse A. Tov. Haskell session types with (al
+ most) no class. Haskell 2008.\nhttp://www.ccs.neu.edu/home/tov/pubs/haskell
+ -session-types/session08.pdf
+LAST-MODIFIED:20110209T033210Z
+LOCATION:BBL 547
+SEQUENCE:8
+STATUS:CONFIRMED
+SUMMARY:RC: Haskell session types with (almost) no class
+TRANSP:OPAQUE
+CATEGORIES:http://schemas.google.com/g/2005#event
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101124T140000
+DTEND;TZID=Europe/Amsterdam:20101124T153000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20101207T225959Z
+DTSTAMP:20111012T083945Z
+UID:onijudnn53jm8gsjsld3k5m5tg@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110209T033210Z
+LOCATION:BBL 547
+SEQUENCE:8
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101208T140000
+DTEND;TZID=Europe/Amsterdam:20101208T153000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20110215T225959Z
+DTSTAMP:20111012T083945Z
+UID:jf33h9ian6sib9b139m0jiuqmo@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20110209T033209Z
+LOCATION:BBL 547
+SEQUENCE:10
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101027T093000
+DTEND;TZID=Europe/Amsterdam:20101027T110000
+DTSTAMP:20111012T083945Z
+UID:c8o03b18h9el9c2skmmj5gfm9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101027T093000
+CREATED:00001231T000000Z
+DESCRIPTION:Next week we're planning to read about supercompilation. For a 
+ change\, we'll have two papers:\n\n    * Neil Mitchell: Rethinking supercom
+ pilation. http://portal.acm.org/citation.cfm?id=1863543.1863588\n    * Maxi
+ milian Bolingbroke\, Simon Peyton Jones: Supercompilation by evaluation. ht
+ tp://portal.acm.org/citation.cfm?id=1863523.1863540\n\nThe idea is that eac
+ h person looks at both papers and chooses one to read. (Of course\, you can
+  also read both\, if you want.) At the meeting we'll try to figure out how 
+ related the papers are\, etc.
+LAST-MODIFIED:20101126T043203Z
+LOCATION:BBL 547
+SEQUENCE:6
+STATUS:CONFIRMED
+SUMMARY:RC: Supercompilation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101117T093000
+DTEND;TZID=Europe/Amsterdam:20101117T110000
+DTSTAMP:20111012T083945Z
+UID:c8o03b18h9el9c2skmmj5gfm9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101117T093000
+CREATED:00001231T000000Z
+DESCRIPTION:http://www.iai.uni-bonn.de/~jv/icfp10.pdf
+LAST-MODIFIED:20101126T043202Z
+LOCATION:BBL 547
+SEQUENCE:6
+STATUS:CONFIRMED
+SUMMARY:RC: Combining Syntactic and Semantic Bidirectionalization (cont'd)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101110T093000
+DTEND;TZID=Europe/Amsterdam:20101110T110000
+DTSTAMP:20111012T083945Z
+UID:c8o03b18h9el9c2skmmj5gfm9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101110T093000
+CREATED:00001231T000000Z
+DESCRIPTION:RC: Combining Syntactic and Semantic Bidirectionalization\nhttp
+ ://www.iai.uni-bonn.de/~jv/icfp10.pdf
+LAST-MODIFIED:20101126T043202Z
+LOCATION:BBL 547
+SEQUENCE:6
+STATUS:CONFIRMED
+SUMMARY:RC: Combining Syntactic and Semantic Bidirectionalization
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101103T093000
+DTEND;TZID=Europe/Amsterdam:20101103T110000
+DTSTAMP:20111012T083945Z
+UID:c8o03b18h9el9c2skmmj5gfm9c@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101103T093000
+CREATED:00001231T000000Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1863543.1863575
+LAST-MODIFIED:20101126T043202Z
+LOCATION:BBL 547
+SEQUENCE:6
+STATUS:CONFIRMED
+SUMMARY:RC: A fresh look at programming with names and binders
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101027T093000
+DTEND;TZID=Europe/Amsterdam:20101027T110000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20101123T225959Z
+DTSTAMP:20111012T083945Z
+UID:c8o03b18h9el9c2skmmj5gfm9c@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20101126T043202Z
+LOCATION:BBL 547
+SEQUENCE:6
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101020T093000
+DTEND;TZID=Europe/Amsterdam:20101020T110000
+DTSTAMP:20111012T083945Z
+UID:6gk45u5q5hqrktk9hppm5mkk74@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101020T100000
+CREATED:00001231T000000Z
+DESCRIPTION:Brent Yorgey\nSpecies and Functors and Types\, Oh My!\nhttp://w
+ ww.cis.upenn.edu/~byorgey/papers/species-pearl.pdf
+LAST-MODIFIED:20101105T063929Z
+LOCATION:BBL 547
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:RC: Species and Functors and Types\, Oh My!
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100915T100000
+DTEND;TZID=Europe/Amsterdam:20100915T113000
+DTSTAMP:20111012T083945Z
+UID:6gk45u5q5hqrktk9hppm5mkk74@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100915T100000
+CREATED:00001231T000000Z
+DESCRIPTION:An Update Calculus for Expressing Type-Safe Program Updates\nMa
+ rtin Erwig and Deling Ren. Science of Computer Programming Vol. 67\, No. 2-
+ 3\, 199-222\, 2007\n\nThe dominant share of software development costs is s
+ pent on software maintenance\, particularly the process of updating program
+ s in response to changing requirements. Currently\, such program changes te
+ nd to be performed using text editors\, an unreliable method that often cau
+ ses many errors. In addition to syntax and type errors\, logical errors can
+  be easily introduced since text editors cannot guarantee that changes are 
+ performed consistently over the whole program. All these errors can cause a
+  correct and perfectly running program to become instantly unusable. It is 
+ not surprising that this situation exists because the ``text-editor method'
+ ' reveals a low-level view of programs that fails to reflect the structure 
+ of programs.\n\nWe address this problem by pursuing a programming-language-
+ based approach to program updates. To this end we discuss in this paper the
+  design and requirements of an update language for expressing update progra
+ ms. We identify as the essential part of any update language a \\emph{scope
+  update} that performs coordinated update of the definition and all uses of
+  a symbol. As the underlying basis for update languages\, we define an upda
+ te calculus for updating lambda-calculus programs. We develop a type system
+  for the update calculus that infers the possible type changes that can be 
+ caused by an update program. We demonstrate that type-safe update programs 
+ that fulfill certain structural constraints preserve the type-correctness o
+ f lambda terms. The update calculus can serve as a basis for higher-level u
+ pdate languages\, such as for Haskell or Java.\n\nhttp://web.engr.oregonsta
+ te.edu/~erwig/papers/UpdateCalculus_SCP07.pdf
+LAST-MODIFIED:20101105T063929Z
+LOCATION:CGN B117
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:RC: Erwig and Ren: An Update Calculus for Expressing Type-Safe Prog
+ ram Updates
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100922T100000
+DTEND;TZID=Europe/Amsterdam:20100922T113000
+DTSTAMP:20111012T083945Z
+UID:6gk45u5q5hqrktk9hppm5mkk74@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100922T100000
+CREATED:00001231T000000Z
+DESCRIPTION:http://personal.cis.strath.ac.uk/~dagand/papers/levitation.pdf
+LAST-MODIFIED:20101105T063929Z
+LOCATION:
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:RC: Chapman\, Dagand\, McBride\, Morris: The Gentle Art of Levitati
+ on
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20101013T093000
+DTEND;TZID=Europe/Amsterdam:20101013T104500
+DTSTAMP:20111012T083945Z
+UID:6gk45u5q5hqrktk9hppm5mkk74@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20101013T100000
+CREATED:00001231T000000Z
+DESCRIPTION:The Barendregt Cube with Definitions and Generalised Reduction\
+ nby Roel Bloo\, Fairouz Kamareddine\, Rob Nederpelt (1996)\n\nhttp://linkin
+ ghub.elsevier.com/retrieve/pii/S0890540196900413
+LAST-MODIFIED:20101105T063929Z
+LOCATION:BBL 570?
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:RC: Barendregt Cube with Definitions and Generalised Reduction
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100915T100000
+DTEND;TZID=Europe/Amsterdam:20100915T113000
+RRULE:FREQ=WEEKLY;BYDAY=WE;WKST=MO;UNTIL=20101026T215959Z
+DTSTAMP:20111012T083945Z
+UID:6gk45u5q5hqrktk9hppm5mkk74@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20101105T063928Z
+LOCATION:
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100706T110000
+DTEND;TZID=Europe/Amsterdam:20100706T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100706T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004600Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: pp. 462--
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100629T110000
+DTEND;TZID=Europe/Amsterdam:20100629T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100629T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004600Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: pp. 456--
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100810T110000
+DTEND;TZID=Europe/Amsterdam:20100810T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100810T110000
+CREATED:00001231T000000Z
+DESCRIPTION:http://research.microsoft.com/en-us/people/dimitris/every-bit-c
+ ounts.pdf
+LAST-MODIFIED:20100921T004559Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Vytiniotis\, Kennedy: Functional Pearl: Every Bit Counts
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100804T110000
+DTEND;TZID=Europe/Amsterdam:20100804T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100803T110000
+CREATED:00001231T000000Z
+DESCRIPTION:http://people.cs.uchicago.edu/~jamiemmt/main.pdf
+LAST-MODIFIED:20100921T004559Z
+LOCATION:CGN B117
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Morgenstern\, Licata: Security-Typed Programming within Depende
+ ntly-Typed Programming
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100601T110000
+DTEND;TZID=Europe/Amsterdam:20100601T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100601T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004559Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: 8.3.4--8.4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100504T110000
+DTEND;TZID=Europe/Amsterdam:20100504T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100504T110000
+CREATED:00001231T000000Z
+DESCRIPTION:http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.542
+ 5&rep=rep1&type=pdf
+LAST-MODIFIED:20100921T004559Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Hinze thesis: Ch. 2\, 3\, 4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100525T110000
+DTEND;TZID=Europe/Amsterdam:20100525T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100525T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004559Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Canceled
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100727T110000
+DTEND;TZID=Europe/Amsterdam:20100727T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100727T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004558Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Morris\, Jones: Instance chains
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100518T110000
+DTEND;TZID=Europe/Amsterdam:20100518T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100518T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004558Z
+LOCATION:CGN B117
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Ex. 8.3.7 -
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100511T110000
+DTEND;TZID=Europe/Amsterdam:20100511T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100511T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004558Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: 8.3
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100427T110000
+DTEND;TZID=Europe/Amsterdam:20100427T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100427T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004558Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: 8.2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100720T110000
+DTEND;TZID=Europe/Amsterdam:20100720T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100720T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004558Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: 7.3\, 7.4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100608T110000
+DTEND;TZID=Europe/Amsterdam:20100608T123000
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+RECURRENCE-ID;TZID=Europe/Amsterdam:20100608T110000
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004557Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: 7.1-7.2.3
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Amsterdam:20100427T110000
+DTEND;TZID=Europe/Amsterdam:20100427T123000
+RRULE:FREQ=WEEKLY;BYDAY=TU;WKST=MO;UNTIL=20100913T215959Z
+DTSTAMP:20111012T083945Z
+UID:ogftf8mr73fhnaf3rcb7lb1ovc@google.com
+CREATED:00001231T000000Z
+DESCRIPTION:
+LAST-MODIFIED:20100921T004557Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100419T121500Z
+DTEND:20100419T134500Z
+DTSTAMP:20111012T083945Z
+UID:b09crk7tbc1cso9om4gngkcp2s@google.com
+CREATED:20100412T134058Z
+DESCRIPTION:Sean Leather
+LAST-MODIFIED:20100514T100448Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Read: 8.1\, 8.2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100412T121500Z
+DTEND:20100412T134500Z
+DTSTAMP:20111012T083945Z
+UID:phfubkvm93es7rql4idp495f6g@google.com
+CREATED:20100315T145045Z
+DESCRIPTION:Sean Leather
+LAST-MODIFIED:20100425T090125Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Read: 5.6.2-5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100329T121500Z
+DTEND:20100329T134500Z
+DTSTAMP:20111012T083945Z
+UID:19hvniiiprqvvbd178oh20kf9s@google.com
+CREATED:20100301T145341Z
+DESCRIPTION:Sori Lee
+LAST-MODIFIED:20100425T090125Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Read: 5.5\, 5.6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100315T131500Z
+DTEND:20100315T144500Z
+DTSTAMP:20111012T083945Z
+UID:qoaaea77li2frjcjeqvuuij48o@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20100308T144148Z
+DESCRIPTION:
+LAST-MODIFIED:20100410T071130Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Read: 5.2.4-5.2.5\, 5.5-5.6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100308T131500Z
+DTEND:20100308T144500Z
+DTSTAMP:20111012T083945Z
+UID:2p07mhorva7bl7o79ud22a9vro@google.com
+CREATED:20100301T145017Z
+DESCRIPTION:
+LAST-MODIFIED:20100325T064659Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Read: 5.1-2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100301T131500Z
+DTEND:20100301T144500Z
+DTSTAMP:20111012T083945Z
+UID:nqrs0l9d0t6abur11qlk84b6b8@google.com
+CREATED:20100222T135317Z
+DESCRIPTION:
+LAST-MODIFIED:20100325T064659Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell: Homework: Ex. 4.5.11-12\, 4.5.20-21\, Read: 5.1-2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100208T141500Z
+DTEND:20100208T154500Z
+DTSTAMP:20111012T083945Z
+UID:5ft0dkpgpc2tnlrcs7008dmof4@google.com
+CREATED:20100118T152024Z
+DESCRIPTION:Bas van Gijzel
+LAST-MODIFIED:20100305T091214Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell\, FPL\, 4.4.3--4\, 2.2.2--5\, 2.6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100222T131500Z
+DTEND:20100222T144500Z
+DTSTAMP:20111012T083945Z
+UID:c3nor7udojcfsifcvhrqv9bin0@google.com
+CREATED:20100208T145627Z
+DESCRIPTION:
+LAST-MODIFIED:20100305T091214Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell 4.5.4-4.5.6\, 5.1-5.2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100215T131500Z
+DTEND:20100215T144500Z
+DTSTAMP:20111012T083945Z
+UID:nq1to7hg75rks2vh78tt8h70g8@google.com
+CREATED:20100208T142055Z
+DESCRIPTION:
+LAST-MODIFIED:20100305T091214Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell 2.6\, 4.5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100111T141500Z
+DTEND:20100111T154500Z
+DTSTAMP:20111012T083945Z
+UID:v379b4g2ggfk5aiat9tg5sbp4c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20091207T154423Z
+DESCRIPTION:
+LAST-MODIFIED:20100120T072342Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Planning for domain theory
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100125T141500Z
+DTEND:20100125T154500Z
+DTSTAMP:20111012T083945Z
+UID:91bavic0njp71jpb352a73jo48@google.com
+CREATED:20100111T144127Z
+DESCRIPTION:Steven Keuchel
+LAST-MODIFIED:20100120T072341Z
+LOCATION:CGN B117
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell\, FPL\, 4.4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20100118T141500Z
+DTEND:20100118T154500Z
+DTSTAMP:20111012T083945Z
+UID:6e19osgblalo5kmq8mul9c89m4@google.com
+CREATED:20100111T144057Z
+DESCRIPTION:Andres Löh
+LAST-MODIFIED:20100120T072341Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Mitchell\, Foundations for Programming Languages\, 4.2 - 4.3
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091130T141500Z
+DTEND:20091130T154500Z
+DTSTAMP:20111012T083945Z
+UID:ufi880eqcq05773gkf29evvv74@google.com
+CREATED:20091124T091216Z
+DESCRIPTION:http://www.cs.nott.ac.uk/~nad/publications/danielsson-norell-mi
+ xfix.pdf
+LAST-MODIFIED:20091214T060719Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Parsing Mixfix Operators
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091207T141500Z
+DTEND:20091207T154500Z
+DTSTAMP:20111012T083945Z
+UID:iqo31i05t6abltm8qnjpum1nvk@google.com
+CREATED:20091201T082124Z
+DESCRIPTION:http://haskell.org/haskellwiki/Simonpj/Talk:FunWithTypeFuns
+LAST-MODIFIED:20091214T060719Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Fun with type functions
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091123T141500Z
+DTEND:20091123T154500Z
+DTSTAMP:20111012T083945Z
+UID:505qsmmo6dd9l9p447q19qesb8@google.com
+CREATED:20091116T155035Z
+DESCRIPTION:http://www.cse.chalmers.se/%7Ewouter/Publications/Thesis.pdf\n\
+ nThis dissertation is about effects and type theory.\n\nFunctional programm
+ ing languages such as Haskell illustrate how to encapsulate side effects us
+ ing monads. Haskell compilers provide a handful of primitive effectful func
+ tions. Programmers can construct larger computations using the monadic retu
+ rn and bind operations.\n\nThese primitive effectful functions\, however\, 
+ have no associated definition. At best\, their semantics are specified sepa
+ rately on paper. This can make it difﬁcult to test\, debug\, verify\, or ev
+ en predict the behaviour of effectful computations.\n\nThis dissertation pr
+ ovides pure\, functional speciﬁcations in Haskell of several different effe
+ cts. Using these speciﬁcations\, programmers can test and debug effectful p
+ rograms. This is particularly useful in tandem with automatic testing tools
+  such as QuickCheck.\n\nThe specifications in Haskell are not total. This m
+ akes them unsuitable for the formal verification of effectful functions. Th
+ is dissertation overcomes this limitation\, by presenting total functional 
+ speciﬁcations in Agda\, a programming language with dependent types.\n\nThe
+ re have been alternative approaches to incorporating effects in a dependent
+ ly typed programming language. Most notably\, recent work on Hoare Type The
+ ory proposes to extend type theory with axioms that postulate the existence
+  of primitive effectful functions. This dissertation shows how the function
+ al specifications implement these axioms\, unifying the \ntwo approaches.\n
+ \nThe results presented in this dissertation may be used to write and verif
+ y effectful programs in the framework of type theory.
+LAST-MODIFIED:20091214T060719Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A Functional Specification of Effects\, 8--9
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091116T141500Z
+DTEND:20091116T154500Z
+DTSTAMP:20111012T083945Z
+UID:59hmuia7lugknrcfsf8etea0bs@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20091109T180804Z
+DESCRIPTION:http://www.cse.chalmers.se/%7Ewouter/Publications/Thesis.pdf\n\
+ nThis dissertation is about effects and type theory.\n\nFunctional programm
+ ing languages such as Haskell illustrate how to encapsulate side effects us
+ ing monads. Haskell compilers provide a handful of primitive effectful func
+ tions. Programmers can construct larger computations using the monadic retu
+ rn and bind operations.\n\nThese primitive effectful functions\, however\, 
+ have no associated definition. At best\, their semantics are specified sepa
+ rately on paper. This can make it difﬁcult to test\, debug\, verify\, or ev
+ en predict the behaviour of effectful computations.\n\nThis dissertation pr
+ ovides pure\, functional speciﬁcations in Haskell of several different effe
+ cts. Using these speciﬁcations\, programmers can test and debug effectful p
+ rograms. This is particularly useful in tandem with automatic testing tools
+  such as QuickCheck.\n\nThe specifications in Haskell are not total. This m
+ akes them unsuitable for the formal verification of effectful functions. Th
+ is dissertation overcomes this limitation\, by presenting total functional 
+ speciﬁcations in Agda\, a programming language with dependent types.\n\nThe
+ re have been alternative approaches to incorporating effects in a dependent
+ ly typed programming language. Most notably\, recent work on Hoare Type The
+ ory proposes to extend type theory with axioms that postulate the existence
+  of primitive effectful functions. This dissertation shows how the function
+ al specifications implement these axioms\, unifying the \ntwo approaches.\n
+ \nThe results presented in this dissertation may be used to write and verif
+ y effectful programs in the framework of type theory.
+LAST-MODIFIED:20091214T060719Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A Functional Specification of Effects\, 6.2--7
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091104T141500Z
+DTEND:20091104T151500Z
+DTSTAMP:20111012T083945Z
+UID:bn8k1ga1a8rqhqaamb9ucj2sp8@google.com
+CREATED:20091029T152312Z
+DESCRIPTION:http://www.cse.chalmers.se/%7Ewouter/Publications/Thesis.pdf\n\
+ nThis dissertation is about effects and type theory.\n\nFunctional programm
+ ing languages such as Haskell illustrate how to encapsulate side effects us
+ ing monads. Haskell compilers provide a handful of primitive effectful func
+ tions. Programmers can construct larger computations using the monadic retu
+ rn and bind operations.\n\nThese primitive effectful functions\, however\, 
+ have no associated definition. At best\, their semantics are specified sepa
+ rately on paper. This can make it difﬁcult to test\, debug\, verify\, or ev
+ en predict the behaviour of effectful computations.\n\nThis dissertation pr
+ ovides pure\, functional speciﬁcations in Haskell of several different effe
+ cts. Using these speciﬁcations\, programmers can test and debug effectful p
+ rograms. This is particularly useful in tandem with automatic testing tools
+  such as QuickCheck.\n\nThe specifications in Haskell are not total. This m
+ akes them unsuitable for the formal verification of effectful functions. Th
+ is dissertation overcomes this limitation\, by presenting total functional 
+ speciﬁcations in Agda\, a programming language with dependent types.\n\nThe
+ re have been alternative approaches to incorporating effects in a dependent
+ ly typed programming language. Most notably\, recent work on Hoare Type The
+ ory proposes to extend type theory with axioms that postulate the existence
+  of primitive effectful functions. This dissertation shows how the function
+ al specifications implement these axioms\, unifying the \ntwo approaches.\n
+ \nThe results presented in this dissertation may be used to write and verif
+ y effectful programs in the framework of type theory.
+LAST-MODIFIED:20091127T060636Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A Functional Specification of Effects\, 3.3--5
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091028T141500Z
+DTEND:20091028T151500Z
+DTSTAMP:20111012T083945Z
+UID:519d47ifs8p4ecc8licg8l5i68@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20091014T151455Z
+DESCRIPTION:http://www.cse.chalmers.se/%7Ewouter/Publications/Thesis.pdf\n\
+ nThis dissertation is about effects and type theory.\n\nFunctional programm
+ ing languages such as Haskell illustrate how to encapsulate side effects us
+ ing monads. Haskell compilers provide a handful of primitive effectful func
+ tions. Programmers can construct larger computations using the monadic retu
+ rn and bind operations.\n\nThese primitive effectful functions\, however\, 
+ have no associated definition. At best\, their semantics are specified sepa
+ rately on paper. This can make it difﬁcult to test\, debug\, verify\, or ev
+ en predict the behaviour of effectful computations.\n\nThis dissertation pr
+ ovides pure\, functional speciﬁcations in Haskell of several different effe
+ cts. Using these speciﬁcations\, programmers can test and debug effectful p
+ rograms. This is particularly useful in tandem with automatic testing tools
+  such as QuickCheck.\n\nThe specifications in Haskell are not total. This m
+ akes them unsuitable for the formal verification of effectful functions. Th
+ is dissertation overcomes this limitation\, by presenting total functional 
+ speciﬁcations in Agda\, a programming language with dependent types.\n\nThe
+ re have been alternative approaches to incorporating effects in a dependent
+ ly typed programming language. Most notably\, recent work on Hoare Type The
+ ory proposes to extend type theory with axioms that postulate the existence
+  of primitive effectful functions. This dissertation shows how the function
+ al specifications implement these axioms\, unifying the \ntwo approaches.\n
+ \nThe results presented in this dissertation may be used to write and verif
+ y effectful programs in the framework of type theory.
+LAST-MODIFIED:20091127T060635Z
+LOCATION:CGN B109
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: A Functional Specification of Effects\, chapters 3 and 4
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091109T140000Z
+DTEND:20091109T153000Z
+DTSTAMP:20111012T083945Z
+UID:60fkcc3kjdo9irj4q4a9iltsg8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20091108T230741Z
+DESCRIPTION:http://www.cse.chalmers.se/%7Ewouter/Publications/Thesis.pdf\n\
+ nThis dissertation is about effects and type theory.\n\nFunctional programm
+ ing languages such as Haskell illustrate how to encapsulate side effects us
+ ing monads. Haskell compilers provide a handful of primitive effectful func
+ tions. Programmers can construct larger computations using the monadic retu
+ rn and bind operations.\n\nThese primitive effectful functions\, however\, 
+ have no associated definition. At best\, their semantics are specified sepa
+ rately on paper. This can make it difﬁcult to test\, debug\, verify\, or ev
+ en predict the behaviour of effectful computations.\n\nThis dissertation pr
+ ovides pure\, functional speciﬁcations in Haskell of several different effe
+ cts. Using these speciﬁcations\, programmers can test and debug effectful p
+ rograms. This is particularly useful in tandem with automatic testing tools
+  such as QuickCheck.\n\nThe specifications in Haskell are not total. This m
+ akes them unsuitable for the formal verification of effectful functions. Th
+ is dissertation overcomes this limitation\, by presenting total functional 
+ speciﬁcations in Agda\, a programming language with dependent types.\n\nThe
+ re have been alternative approaches to incorporating effects in a dependent
+ ly typed programming language. Most notably\, recent work on Hoare Type The
+ ory proposes to extend type theory with axioms that postulate the existence
+  of primitive effectful functions. This dissertation shows how the function
+ al specifications implement these axioms\, unifying the \ntwo approaches.\n
+ \nThe results presented in this dissertation may be used to write and verif
+ y effectful programs in the framework of type theory.
+LAST-MODIFIED:20091127T060635Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A Functional Specification of Effects\, 5--6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091014T130000Z
+DTEND:20091014T140000Z
+DTSTAMP:20111012T083945Z
+UID:aqvblrvb7coltiulvhc2nmsu8g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20091007T141713Z
+DESCRIPTION:http://www.cse.chalmers.se/%7Ewouter/Publications/Thesis.pdf\n\
+ nThis dissertation is about effects and type theory.\n\nFunctional programm
+ ing languages such as Haskell illustrate how to encapsulate side effects us
+ ing monads. Haskell compilers provide a handful of primitive effectful func
+ tions. Programmers can construct larger computations using the monadic retu
+ rn and bind operations.\n\nThese primitive effectful functions\, however\, 
+ have no associated definition. At best\, their semantics are specified sepa
+ rately on paper. This can make it difﬁcult to test\, debug\, verify\, or ev
+ en predict the behaviour of effectful computations.\n\nThis dissertation pr
+ ovides pure\, functional speciﬁcations in Haskell of several different effe
+ cts. Using these speciﬁcations\, programmers can test and debug effectful p
+ rograms. This is particularly useful in tandem with automatic testing tools
+  such as QuickCheck.\n\nThe specifications in Haskell are not total. This m
+ akes them unsuitable for the formal verification of effectful functions. Th
+ is dissertation overcomes this limitation\, by presenting total functional 
+ speciﬁcations in Agda\, a programming language with dependent types.\n\nThe
+ re have been alternative approaches to incorporating effects in a dependent
+ ly typed programming language. Most notably\, recent work on Hoare Type The
+ ory proposes to extend type theory with axioms that postulate the existence
+  of primitive effectful functions. This dissertation shows how the function
+ al specifications implement these axioms\, unifying the \ntwo approaches.\n
+ \nThe results presented in this dissertation may be used to write and verif
+ y effectful programs in the framework of type theory.
+LAST-MODIFIED:20091110T061110Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A Functional Specification of Effects (Wouter Swierstra)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20091007T120000Z
+DTEND:20091007T130000Z
+DTSTAMP:20111012T083945Z
+UID:pe7qgdehduqpn2fir1mr5pido0@google.com
+CREATED:20091001T100235Z
+DESCRIPTION:http://www.cs.nott.ac.uk/~gmh/bib.html#wrapper2
+LAST-MODIFIED:20091001T100235Z
+LOCATION:CGN B109
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Factorising folds for faster functions
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090923T120000Z
+DTEND:20090923T130000Z
+DTSTAMP:20111012T083945Z
+UID:t51v7k32odohq0dbis33ff8558@google.com
+CREATED:20090916T133841Z
+DESCRIPTION:http://lambda-the-ultimate.org/node/3319
+LAST-MODIFIED:20090926T103416Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Types are Calling Conventions
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090930T131500Z
+DTEND:20090930T141500Z
+DTSTAMP:20111012T083945Z
+UID:3sthdsck2fqats45e4s4aic1jo@google.com
+CREATED:20090916T133937Z
+DESCRIPTION:http://conal.net/papers/beautiful-differentiation/\n\nhttp://po
+ rtal.acm.org/citation.cfm?id=1596550.1596579&coll=ACM&dl=ACM&type=series&id
+ x=SERIES824&part=series&WantType=Proceedings&title=ICFP&CFID=53974685&CFTOK
+ EN=22880986
+LAST-MODIFIED:20090926T103416Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Beautiful differentiation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090916T120000Z
+DTEND:20090916T130000Z
+DTSTAMP:20111012T083945Z
+UID:vg3eo1pqouefd4c5qln8o1eu0k@google.com
+CREATED:20090909T122218Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1596550.1596571&coll=port
+ al&dl=ACM&type=series&idx=SERIES824&part=series&WantType=Proceedings&title=
+ ICFP
+LAST-MODIFIED:20090926T103416Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A Universe of Binding and Computation
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090702T083000Z
+DTEND:20090702T100000Z
+DTSTAMP:20111012T083945Z
+UID:6377fpkf3nr3n33iv6s5ag1n1s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20090617T130246Z
+DESCRIPTION:To read:\n- Rewrite rules on GHC user's guide: http://www.haske
+ ll.org/ghc/docs/latest/html/users_guide/rewrite-rules.html\n- GHC plugins: 
+ Max Bolingbroke - Compiler Development Made Easy (http://www.haskell.org/si
+ tewiki/images/f/f0/TMR-Issue12.pdf)
+LAST-MODIFIED:20090630T090459Z
+LOCATION:CGN-B109
+SEQUENCE:6
+STATUS:CONFIRMED
+SUMMARY:RC: Hands-on with rewrite rules and GHC core
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090617T120000Z
+DTEND:20090617T130000Z
+DTSTAMP:20111012T083945Z
+UID:k9rq87vq9t90nllelur04ndvbs@google.com
+CREATED:20090610T134339Z
+DESCRIPTION:http://www.cs.ru.nl/~alimarin/papers/optgen04.pdf
+LAST-MODIFIED:20090610T134339Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Optimizing Generic Functions (Alimarine and Smetsers)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090610T120000Z
+DTEND:20090610T130000Z
+DTSTAMP:20111012T083945Z
+UID:vshev7q4gh9eaqbvgs11fpsd7o@google.com
+CREATED:20090527T125511Z
+DESCRIPTION:http://www.comlab.ox.ac.uk/files/2230/aspect.pdf
+LAST-MODIFIED:20090527T125511Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: What does AOP Mean for Functional Programmers? (Wang\, Oliveira
+ )
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090513T120000Z
+DTEND:20090513T130000Z
+DTSTAMP:20111012T083945Z
+UID:lcd61688ig2bcujbo5akn1po6c@google.com
+CREATED:20090421T102018Z
+DESCRIPTION:
+LAST-MODIFIED:20090511T075350Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Arie presents "Controlling Non-Determinism in Type Rules using Firs
+ t-Class Guessing"
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090527T120000Z
+DTEND:20090527T130000Z
+DTSTAMP:20111012T083945Z
+UID:8bgper8ekbr0p8hnul93cmr8js@google.com
+CREATED:20090507T081819Z
+DESCRIPTION:
+LAST-MODIFIED:20090507T081819Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Initial Algebra Semantics is Enough! (Ghani\, Johann)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090506T120000Z
+DTEND:20090506T130000Z
+DTSTAMP:20111012T083945Z
+UID:q9slbufe604fo49gn54k8rm9as@google.com
+CREATED:20090429T130317Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?id=1411204.1411220
+LAST-MODIFIED:20090429T130317Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Generic Discrimination: Sorting and Paritioning Unshared Data i
+ n Linear Time (Fritz Henglein)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090429T120000Z
+DTEND:20090429T130000Z
+DTSTAMP:20111012T083945Z
+UID:9aplnq3d5hqa1el059kcptc8fc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20090424T072743Z
+DESCRIPTION:http://portal.acm.org/citation.cfm?doid=365230.365257
+LAST-MODIFIED:20090424T072801Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: The next 700 programming languages (P. Landin)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090422T120000Z
+DTEND:20090422T130000Z
+DTSTAMP:20111012T083945Z
+UID:m6bcf3gt95psos9bg9u39tafhs@google.com
+CREATED:20090414T125951Z
+DESCRIPTION:http://www.cse.unsw.edu/~chak/papers/modules-classes.pdf
+LAST-MODIFIED:20090414T125952Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: ML Modules and Haskell Type Classes (Wehr\, Chakravarty)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090408T120000Z
+DTEND:20090408T130000Z
+DTSTAMP:20111012T083945Z
+UID:ptgtjrgo8ja7lttccud32j8t08@google.com
+CREATED:20090326T104400Z
+DESCRIPTION:Severely resource-constrained devices present a confounding cha
+ llenge to the functional programmer: we are used to having powerful abstrac
+ tion facilities at our fingertips\, but how can we make use of these tools 
+ on a device with an 8- or 16-bit CPU and at most tens of kilobytes of RAM? 
+ Motivated by this challenge\, we have developed Flask\, a domain specific l
+ anguage embedded in Haskell that brings the power of functional programming
+  to sensor networks\, collections of highly resource-constrained devices. F
+ lask consists of a staging mechanism that cleanly separates node-level code
+  from the meta-language used to generate node-level code fragments\; syntac
+ tic support for embedding standard sensor network code\; a restricted subse
+ t of Haskell that runs on sensor networks and constrains program space and 
+ time consumption\; a higher-level "data stream" combinator library for quic
+ kly constructing sensor network programs\; and an extensible runtime that p
+ rovides commonly-used services. We demonstrate Flask through several small 
+ code examples as well as a compiler that generates node-level code to execu
+ te a network-wide query specified in a SQL-like language. We show how using
+  Flask ensures constraints on space and time behavior. Through microbenchma
+ rks and measurements on physical hardware\, we demonstrate that Flask produ
+ ces programs that are efficient in terms of CPU and memory usage and that c
+ an run effectively on existing sensor network hardware.
+LAST-MODIFIED:20090402T065146Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Sean presents "Flask: Staged Functional Programming for Sensor 
+ Networks"
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090401T120000Z
+DTEND:20090401T130000Z
+DTSTAMP:20111012T083945Z
+UID:sl49qkaqp9lboh6srkethsgl2g@google.com
+CREATED:20090326T104324Z
+DESCRIPTION:http://www.comlab.ox.ac.uk/jeremy.gibbons/publications/adt.pdf
+LAST-MODIFIED:20090326T104324Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Unfolding abstract datatypes (Gibbons)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090325T130000Z
+DTEND:20090325T140000Z
+DTSTAMP:20111012T083945Z
+UID:a21hkd4emn81gtqqdqqvin2k5c@google.com
+CREATED:20090318T141309Z
+DESCRIPTION:http://conal.net/papers/type-class-morphisms/
+LAST-MODIFIED:20090318T144211Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Denotational design with type class morphisms
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090318T130000Z
+DTEND:20090318T140000Z
+DTSTAMP:20111012T083945Z
+UID:bqfghbovjqok06b3phl6g23cuo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20090311T142439Z
+DESCRIPTION:http://yi-editor.blogspot.com/2009/03/lazy-and-incremental-pars
+ ing-paper.html
+LAST-MODIFIED:20090311T154611Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Lazy and Incremental Parsing
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090311T130000Z
+DTEND:20090311T140000Z
+DTSTAMP:20111012T083945Z
+UID:k0kmduv9siuv5i7assu6nhposo@google.com
+CREATED:20090304T143112Z
+DESCRIPTION:http://ghcmutterings.wordpress.com/2009/03/03/new-paper-runtime
+ -support-for-multicore-haskell/
+LAST-MODIFIED:20090304T143112Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Runtime Support for Multicore Haskell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090304T130000Z
+DTEND:20090304T140000Z
+DTSTAMP:20111012T083945Z
+UID:gtk8u8cdn5i7em223nq2s8n1b0@google.com
+CREATED:20090225T144957Z
+DESCRIPTION:http://web.cecs.pdx.edu/~mpj/pubs/fundeps-design.html
+LAST-MODIFIED:20090225T144958Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Language and Program Design for Functional Dependencies
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090225T130000Z
+DTEND:20090225T140000Z
+DTSTAMP:20111012T083945Z
+UID:6g49bfebjhb9auhu5dmu7bdueg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20090218T145039Z
+DESCRIPTION:
+LAST-MODIFIED:20090223T122417Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Generic Programming with GADTs and Existential Types (Alexey's 
+ Last Chapter)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090218T140000Z
+DTEND:20090218T150000Z
+DTSTAMP:20111012T083945Z
+UID:i1nne444kse56s4ttfr5nrb3uo@google.com
+CREATED:20090211T150157Z
+DESCRIPTION:http://www.shams.edu.eg/www.maththinking.com/2/book.pdf
+LAST-MODIFIED:20090211T150157Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Programming in Martin-Löf’s Type Theory (pt. 3 and 4)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090211T140000Z
+DTEND:20090211T150000Z
+DTSTAMP:20111012T083945Z
+UID:uj5qk27lom1tll8hou2rg44fjo@google.com
+CREATED:20090205T151339Z
+DESCRIPTION:http://www.shams.edu.eg/www.maththinking.com/2/book.pdf
+LAST-MODIFIED:20090210T154115Z
+LOCATION:
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:RC: Programming in Martin-Löf’s Type Theory (pt. 2)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090204T140000Z
+DTEND:20090204T150000Z
+DTSTAMP:20111012T083945Z
+UID:q6ga1goef7jchmc02rna1qmrb4@google.com
+CREATED:20090128T095613Z
+DESCRIPTION:http://www.shams.edu.eg/www.maththinking.com/2/book.pdf
+LAST-MODIFIED:20090203T121825Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RC: Programming in Martin-Löf’s Type Theory (ch. 14 - 16)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090128T083000Z
+DTEND:20090128T103000Z
+DTSTAMP:20111012T083945Z
+UID:6b0gl3fr0uv1k2854j88o7jl9k@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Readin
+ g Club;X-NUM-GUESTS=0:mailto:tae6kc5a4shajkk9n7uovqrjj8@group.calendar.goog
+ le.com
+CREATED:20090114T093154Z
+DESCRIPTION:http://www.shams.edu.eg/www.maththinking.com/2/book.pdf
+LAST-MODIFIED:20090121T083709Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Programming in Martin-Löf’s Type Theory (ch. 6 - 13)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20090114T083000Z
+DTEND:20090114T103000Z
+DTSTAMP:20111012T083945Z
+UID:mhpii1g9kbp0kl7501a58cjgio@google.com
+CREATED:20081210T092407Z
+DESCRIPTION:http://www.shams.edu.eg/www.maththinking.com/2/book.pdf
+LAST-MODIFIED:20081217T100315Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Programming in Martin-Löf’s Type Theory (ch. 1--5)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081217T083000Z
+DTEND:20081217T103000Z
+DTSTAMP:20111012T083945Z
+UID:ff7it7qheu4gpkggc26q9h19gs@google.com
+CREATED:20081210T092847Z
+DESCRIPTION:http://www.brics.dk/~hosc/local/HOSC-11-4-pp363-397.pdf
+LAST-MODIFIED:20081210T101117Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Definitional interpreters for higher-order programming language
+ s
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081210T083000Z
+DTEND:20081210T103000Z
+DTSTAMP:20111012T083945Z
+UID:7116veb52jlu4p8e1hffon5v70@google.com
+CREATED:20081125T095659Z
+DESCRIPTION:Jacques Carette\, Oleg Kiselyov\, and Chung-chieh Shan. Journal
+  of Functional  Programming\, to appear.\n\nhttp://www.cs.rutgers.edu/~ccsh
+ an/tagless/jfp.pdf
+LAST-MODIFIED:20081204T125042Z
+LOCATION:CGN B-117
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Finally tagless\, partially evaluated: tagless staged interpret
+ ers for simpler typed languages
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081203T083000Z
+DTEND:20081203T103000Z
+DTSTAMP:20111012T083945Z
+UID:g8qck01ahjiaf1oraj27kb9d64@google.com
+CREATED:20081203T101435Z
+DESCRIPTION:Paul Levy\nhttp://www.cs.bham.ac.uk/~pbl/papers/tlca99.pdf
+LAST-MODIFIED:20081203T101435Z
+LOCATION:CGN B-117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Call-By-Push-Value: A Subsuming Paradigm
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081125T083000Z
+DTEND:20081125T103000Z
+DTSTAMP:20111012T083945Z
+UID:a2r5usb6f2ine1uo7eoi5k2cd8@google.com
+CREATED:20081119T110415Z
+DESCRIPTION:See mail for paper.
+LAST-MODIFIED:20081119T110415Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: A substructural type system for backward strictness analysis
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081111T083000Z
+DTEND:20081111T103000Z
+DTSTAMP:20111012T083945Z
+UID:6a804rpmh0hh7u4cek5tqft0ok@google.com
+CREATED:20081106T113630Z
+DESCRIPTION:
+LAST-MODIFIED:20081111T101629Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Jay\, Introduction to Categories in Computing (Monads)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081118T083000Z
+DTEND:20081118T103000Z
+DTSTAMP:20111012T083945Z
+UID:1nhco0dj5phfchksiqll4cmtig@google.com
+CREATED:20081111T101612Z
+DESCRIPTION:Cartesian Closed Categories in all of the texts we have seen so
+  far.
+LAST-MODIFIED:20081111T101625Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Cartesian Closed Categories
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081106T100000Z
+DTEND:20081106T120000Z
+DTSTAMP:20111012T083945Z
+UID:pemaqnuft8g3k5pu3kle2tr2s4@google.com
+CREATED:20081028T102004Z
+DESCRIPTION:http://www.cs.man.ac.uk/~david/categories/book/book.pdf
+LAST-MODIFIED:20081028T102005Z
+LOCATION:CGN B-117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Computational Category Theory (Ch. 6. Adjunctions)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081028T100000Z
+DTEND:20081028T120000Z
+DTSTAMP:20111012T083945Z
+UID:rar17vhs7mql2uop8i250ehi0k@google.com
+CREATED:20081021T143030Z
+DESCRIPTION:http://www.cs.man.ac.uk/~david/categories/book/book.pdf
+LAST-MODIFIED:20081021T143030Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Computational Category Theory (chapter 5)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081021T090000Z
+DTEND:20081021T110000Z
+DTSTAMP:20111012T083945Z
+UID:6qhcht5gm72s56smkpvq3ut994@google.com
+CREATED:20081014T140217Z
+DESCRIPTION:http://www.cs.man.ac.uk/~david/categories/book/book.pdf
+LAST-MODIFIED:20081014T140217Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Computational Category Theory (4.8 onwards and chapter 5)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081014T090000Z
+DTEND:20081014T110000Z
+DTSTAMP:20111012T083945Z
+UID:7kf2rl7uthcbl7t6ioklvedi18@google.com
+CREATED:20081007T131638Z
+DESCRIPTION:http://www.cs.man.ac.uk/~david/categories/book/book.pdf
+LAST-MODIFIED:20081007T131638Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Computational Category Theory (chapters 3 and 4)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20081007T090000Z
+DTEND:20081007T110000Z
+DTSTAMP:20111012T083945Z
+UID:3p8a0hpbn0omd0ipcuo50pjaik@google.com
+CREATED:20080916T123719Z
+DESCRIPTION:http://www.kestrel.edu/home/people/meertens/diverse/ct4pc.pdf
+LAST-MODIFIED:20080916T123719Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Category Theory for Program Construction by Calculation (ch. 2:
+  Nat. Trans\; Exercise 3.12\; ch. 4)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080923T090000Z
+DTEND:20080923T110000Z
+DTSTAMP:20111012T083945Z
+UID:g9n7i57phuhb7agat4tbn876ac@google.com
+CREATED:20080916T105831Z
+DESCRIPTION:http://www.comlab.ox.ac.uk/jeremy.gibbons/publications/scalagp.
+ pdf
+LAST-MODIFIED:20080916T110226Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Scala for Generic Programmers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080930T090000Z
+DTEND:20080930T110000Z
+DTSTAMP:20111012T083945Z
+UID:temdeqipq7t0d3bh504uq1l7h4@google.com
+CREATED:20080916T110054Z
+DESCRIPTION:http://homepages.inf.ed.ac.uk/wadler/topics/links.html#arrows-a
+ nd-idioms
+LAST-MODIFIED:20080916T110118Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RC: Idioms are oblivious\, arrows are meticulous\, monads are promi
+ scuous
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080916T090000Z
+DTEND:20080916T110000Z
+DTSTAMP:20111012T083945Z
+UID:c7ftn3sr3ol69us7b0hf27cs0c@google.com
+CREATED:20080909T110922Z
+DESCRIPTION:http://www.kestrel.edu/home/people/meertens/diverse/ct4pc.pdf
+LAST-MODIFIED:20080909T124718Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Category Theory for Program Construction by Calculation (ch. 2:
+  Functors\, Nat. Trans\; ch. 3)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080901T100000Z
+DTEND:20080901T120000Z
+DTSTAMP:20111012T083945Z
+UID:ak2v9te7onjrqch59tghpdd3vg@google.com
+CREATED:20080828T092353Z
+DESCRIPTION:https://www.cs.tcd.ie/~verbruwj/pub/polytypic-programming-in-co
+ q.pdf
+LAST-MODIFIED:20080828T100922Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RC: Polytypic Programming in Coq
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080828T073000Z
+DTEND:20080828T093000Z
+DTSTAMP:20111012T083945Z
+UID:vgov4rgid7qfi1cq2oo63edlkk@google.com
+CREATED:20080819T144448Z
+DESCRIPTION:
+LAST-MODIFIED:20080828T100908Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:RC: Ynot: Reasoning with the Awkward Squad 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080909T110000Z
+DTEND:20080909T130000Z
+DTSTAMP:20111012T083945Z
+UID:ut60uvf5l5qasnt8beo1jlqrb8@google.com
+CREATED:20080828T092449Z
+DESCRIPTION:http://www.kestrel.edu/home/people/meertens/diverse/ct4pc.pdf
+LAST-MODIFIED:20080828T092449Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Category Theory for Program Construction by Calculation\, chapt
+ er 2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080814T071500Z
+DTEND:20080814T081500Z
+DTSTAMP:20111012T083945Z
+UID:rnrv66gs81s96ljl93bi91mk8k@google.com
+CREATED:20080731T100516Z
+DESCRIPTION:
+LAST-MODIFIED:20080819T144356Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RC: Lightweight Invariants with Full Dependent Types
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080731T071500Z
+DTEND:20080731T081500Z
+DTSTAMP:20111012T083945Z
+UID:e4cc5rglldj62oagaapv7tk948@google.com
+CREATED:20080728T121236Z
+DESCRIPTION:http://www.dcs.st-and.ac.uk/~eb/drafts/icfp08.pdf
+LAST-MODIFIED:20080731T094338Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Correct-by-Construction Concurrency
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080724T071500Z
+DTEND:20080724T084500Z
+DTSTAMP:20111012T083945Z
+UID:u9boqmdbl8bo49t13snhq998v4@google.com
+CREATED:20080627T122027Z
+DESCRIPTION:http://crab.rutgers.edu/~pjohann/popl08.pdf
+LAST-MODIFIED:20080716T135322Z
+LOCATION:CGN B117
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Foundations for Structured Programming with GADTs (Johann\, Gha
+ ni)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080619T071500Z
+DTEND:20080619T084500Z
+DTSTAMP:20111012T083945Z
+UID:thqrf829cfmhfjvm18hgr8dbkg@google.com
+CREATED:20080612T075033Z
+DESCRIPTION:http://strictlypositive.org/CJ.pdf
+LAST-MODIFIED:20080612T075033Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Clowns to the Left of me\, Jokers to the Right (McBride)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080612T071500Z
+DTEND:20080612T084500Z
+DTSTAMP:20111012T083945Z
+UID:bo393qj281okh1nrn8gtu8826g@google.com
+CREATED:20080605T084131Z
+DESCRIPTION:http://www.cs.uni-bonn.de/~ralf/publications/HW2003.pdf
+LAST-MODIFIED:20080605T144428Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Trouble shared is trouble halved (Bird\, Hinze)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080605T071500Z
+DTEND:20080605T084500Z
+DTSTAMP:20111012T083945Z
+UID:0eqhcnf21km54nl4ht0gr276hg@google.com
+CREATED:20080529T083220Z
+DESCRIPTION:
+LAST-MODIFIED:20080603T103240Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Zippy tabulations of recursive functions (Richard Bird)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080529T071500Z
+DTEND:20080529T084500Z
+DTSTAMP:20111012T083945Z
+UID:gh2uehl3ddtkt6jdhek35emqvk@google.com
+CREATED:20080515T085807Z
+DESCRIPTION:Chapter 3 of Ulf Norell's PhD thesis (http://www.cs.chalmers.se
+ /~ulfn/papers/thesis.pdf).
+LAST-MODIFIED:20080528T170333Z
+LOCATION:CGN B117
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RC: Metavariables
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080515T071500Z
+DTEND:20080515T081500Z
+DTSTAMP:20111012T083945Z
+UID:u1f79rq5lh1d6voo4g47sfev10@google.com
+CREATED:20080508T085301Z
+DESCRIPTION:Chapter 2 of Ulf Norell's PhD thesis (http://www.cs.chalmers.se
+ /~ulfn/papers/thesis.pdf).
+LAST-MODIFIED:20080508T085301Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Pattern Matching
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080508T071500Z
+DTEND:20080508T084500Z
+DTSTAMP:20111012T083945Z
+UID:sjuhuktej056sqiju8n3sgb8gk@google.com
+CREATED:20080429T133359Z
+DESCRIPTION:Ezra Cooper\, Sam Lindley\, Philip Wadler\, and Jeremy Yallop. 
+ Submitted to ICFP 2008.\n\nFormlets in Links decouple user interface from d
+ ata\, a vital form of abstraction supported by very few web frameworks. For
+ mlets are best defined in terms of idioms\, not monads or arrows as one mig
+ ht suppose from the existing literature.\n\nhttp://homepages.inf.ed.ac.uk/w
+ adler/topics/links.html#formlets
+LAST-MODIFIED:20080429T134854Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: An idiom's guide to formlets
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080424T071500Z
+DTEND:20080424T084500Z
+DTSTAMP:20111012T083945Z
+UID:aitrkl0r44mkb4rfgrpqni1sjk@google.com
+CREATED:20080417T082753Z
+DESCRIPTION:Eelco Dolstra\, Andres Löh\nhttp://people.cs.uu.nl/andres/NixOS
+ .html
+LAST-MODIFIED:20080417T083328Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: NixOS: A Purely Functional Linux Distribution
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080417T071500Z
+DTEND:20080417T084500Z
+DTSTAMP:20111012T083945Z
+UID:vuaenflhmpk7caoov7a5msrauk@google.com
+CREATED:20080403T075117Z
+DESCRIPTION:Doaitse's & Artur's ICFP Submission
+LAST-MODIFIED:20080409T133241Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:RC: Typed Transformations of Typed Abstract Syntax
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080403T071500Z
+DTEND:20080403T081500Z
+DTSTAMP:20111012T083945Z
+UID:07l7vmfe0ftprs6u3om2hhh3lo@google.com
+CREATED:20080325T094102Z
+DESCRIPTION:No reading for this time since we were all on holiday.\n\nLet's
+  discuss what to do for next week.
+LAST-MODIFIED:20080325T124519Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:RC: Short Planning Mtg
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080320T081500Z
+DTEND:20080320T091500Z
+DTSTAMP:20111012T083945Z
+UID:84t1i1tf21s77amr99hdirk6hg@google.com
+CREATED:20080313T085855Z
+DESCRIPTION:Read: http://www.cse.unsw.edu.au/~chak/papers/CKP05.html\nRefer
+ ence: http://www.haskell.org/haskellwiki/GHC/Type_families
+LAST-MODIFIED:20080313T085855Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Associated Types
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080313T081500Z
+DTEND:20080313T091500Z
+DTSTAMP:20111012T083945Z
+UID:egbust4db4klv94pplvhiddfpo@google.com
+CREATED:20080306T103456Z
+DESCRIPTION:Continue/finish CoqIntro.v on http://www.cis.upenn.edu/~plclub/
+ popl08-tutorial/code/index.html
+LAST-MODIFIED:20080306T103559Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Coq Tutorial
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080306T081500Z
+DTEND:20080306T094500Z
+DTSTAMP:20111012T083945Z
+UID:b2qdrf1act1upqu2iaedr8vjls@google.com
+CREATED:20080228T101049Z
+DESCRIPTION:* Do CoqIntro.v on http://www.cis.upenn.edu/~plclub/popl08-tuto
+ rial/
+LAST-MODIFIED:20080228T101050Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Coq Tutorial
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20080228T081500Z
+DTEND:20080228T094500Z
+DTSTAMP:20111012T083945Z
+UID:mor66hgs6imu6ieev5ntem2b28@google.com
+CREATED:20080227T081921Z
+DESCRIPTION:* Read through the material on http://www.cis.upenn.edu/~plclub
+ /popl08-tutorial/\n* Talk about how we want to go through the tutorial.\n* 
+ Discuss plans for future meetings
+LAST-MODIFIED:20080227T153138Z
+LOCATION:CGN B117
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RC: Planning Mtg & Coq Tutorial
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
