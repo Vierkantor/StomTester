@@ -3,7 +3,7 @@ StomTester
 
 Een script om je practica à la Domjudge te testen. Geen garantie op correctheid, maar helpt hopelijk bij troubleshooten.
 
-Gemaakt voor UU's vakken Datastructuren en Functioneel Programmeren. Ondersteunt waarschijnlijk diverse andere dingen.
+Gemaakt voor UU's vakken Datastructuren, Functioneel Programmeren en Algoritmiek. Ondersteunt waarschijnlijk diverse andere dingen.
 
 Inhoud
 ------
